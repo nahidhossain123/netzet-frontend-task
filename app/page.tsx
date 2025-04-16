@@ -1,15 +1,26 @@
 import Image from "next/image";
+import DiscountBanner from "./components/DiscountBanner";
+import Navbar from "./components/Navbar";
+
+const navs = [
+  {
+    title: 'About Us',
+    to: '/about'
+  },
+  {
+    title: 'Contact',
+    to: '/contact'
+  },
+
+]
 
 export default function Home() {
   return (
     <main className="">
       {/* Discount Banner */}
-      <div className="bg-gradient-to-r from-[#FC004E] to-[#10CBE0]">
-        <p className="py-2.5 font-extrabold text-[22px] text-center">
-          <span className="text-[#10CBE0]">🚀 FRESH BEGINNINGS SALE:</span>
-          <span className="text-white"> Extra 25% OFF, Limited Spots </span>
-          <span className="text-white">- start your journey today!</span>
-        </p>
+      <DiscountBanner />
+      <div className="max-w-[1018px] mx-auto">
+        <Navbar navs={navs} />
       </div>
     </main>
   );
