@@ -1,15 +1,15 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 interface LinkType {
-    title: string,
+    children: ReactNode,
     to: string,
     style: string
 }
 
-const ThemeLink = ({ title, to, style }: LinkType) => {
+const ThemeLink = ({ children, to, style }: LinkType) => {
     return (
-        <Link className={`${style}`} href={to}>{title}</Link>
+        <Link className={`${style}`} href={to}>{children}</Link>
     )
 }
 
