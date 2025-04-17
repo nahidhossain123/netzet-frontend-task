@@ -4,12 +4,14 @@ import Navbar from "./components/Navbar";
 
 const navs = [
   {
-    title: 'About Us',
-    to: '/about'
+    id: '1',
+    title: 'About us',
+    to: '#'
   },
   {
+    id: '2',
     title: 'Contact',
-    to: '/contact'
+    to: '#'
   },
 
 ]
@@ -19,8 +21,11 @@ export default function Home() {
     <main className="">
       {/* Discount Banner */}
       <DiscountBanner />
-      <div className="max-w-[1018px] mx-auto">
-        <Navbar navs={navs} />
+      <div className="bg-black py-5">
+        {/* Navbar Section */}
+        <section className="max-w-[1018px] mx-auto">
+          <Navbar navs={navs} />
+        </section>
       </div>
     </main>
   );

@@ -3,12 +3,13 @@ import React from 'react'
 
 interface LinkType {
     title: string,
-    to: string
+    to: string,
+    style: string
 }
 
-const ThemeLink = ({ title, to }: LinkType) => {
+const ThemeLink = ({ title, to, style }: LinkType) => {
     return (
-        <Link href={to}>{title}</Link>
+        <Link className={`${style}`} href={to}>{title}</Link>
     )
 }
 
