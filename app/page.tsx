@@ -1,6 +1,7 @@
 import Image from "next/image";
 import DiscountBanner from "./components/DiscountBanner";
 import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 
 const navs = [
   {
@@ -25,6 +26,10 @@ export default function Home() {
         {/* Navbar Section */}
         <section className="max-w-[1018px] mx-auto">
           <Navbar navs={navs} />
+
+        </section>
+        <section className="max-w-[1124px] mx-auto">
+          <HeroSection />
         </section>
       </div>
     </main>
