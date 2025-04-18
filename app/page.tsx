@@ -19,16 +19,24 @@ const navs = [
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="bg-black">
       {/* Discount Banner */}
       <DiscountBanner />
-      <div className="bg-black py-5">
+      <div className="
+        max-w-[1238px] 
+        mx-auto 
+        bg-black 
+        pt-5 
+        bg-[url('/Influe_mobile-small.png')] 
+        sm:bg-[url('/Influe_mobile-large.png')] 
+        bg-no-repeat bg-top md:bg-bottom-right
+      ">
         {/* Navbar Section */}
-        <section className="max-w-[1018px] mx-auto">
+        <div className="max-w-[1018px] mx-auto">
           <Navbar navs={navs} />
-        </section>
+        </div>
         {/* Hero Section */}
-        <section className="max-w-[1238px] mx-auto">
+        <section className="">
           <HeroSection />
         </section>
       </div>

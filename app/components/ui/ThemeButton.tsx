@@ -46,7 +46,7 @@ const ThemeButton = ({
             ${buttonStyle && buttonStyle}
         `}>
             <span>{children}</span>
-            {iconSrc && (<img src={iconSrc} className={`${iconStyle}`} alt={iconAlt ? iconAlt : 'icon'} />)}
+            {iconSrc && (<Image src={iconSrc} className={`${iconStyle}`} alt={iconAlt ? iconAlt : 'icon'} width={20} height={20} />)}
         </button>
     )
 }
