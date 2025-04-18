@@ -26,9 +26,9 @@ export default function Home() {
         {/* Navbar Section */}
         <section className="max-w-[1018px] mx-auto">
           <Navbar navs={navs} />
-
         </section>
-        <section className="max-w-[1124px] mx-auto">
+        {/* Hero Section */}
+        <section className="max-w-[1238px] mx-auto">
           <HeroSection />
         </section>
       </div>

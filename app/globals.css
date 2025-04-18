@@ -4,7 +4,8 @@
   --background: #ffffff;
   --foreground: #171717;
   --brand-primary: #FC004E;
-  --brand-secondary:#10CBE0;
+  --brand-secondary50:#00E7F9;
+  --brand-secondary100:#10CBE0;
   --text-primary: #A9A9A9;
   --text-secondary: #ABABAB;
 }
@@ -13,7 +14,8 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-brand-primary: var(--brand-primary);
-  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-secondary50: var(--brand-secondary50);
+  --color-brand-secondary100: var(--brand-secondary100);
   --color-text-primary: var(--text-primary);
   --color-text-secondary: var(--text-secondary);
   --font-sans: var(--font-geist-sans);

@@ -3,14 +3,14 @@ import ThemeButton from './ui/ThemeButton'
 
 const HeroSection = () => {
     return (
-        <section className="ml-10 flex flex-col md:flex-row items-center justify-between  bg-[url('/Influe_mobile.png')] bg-no-repeat bg-right">
-            <div className="space-y-[30px] pt-[57px] pb-[83px] max-w-[516px]">
+        <section className="flex flex-col md:flex-row items-center justify-between  bg-[url('/Influe_mobile.png')] bg-no-repeat bg-right">
+            <div className="space-y-[30px] pt-[57px] pb-[83px] max-w-[516px] ml-[114px]">
                 <div>
                     <h1 className="text-4xl font-bold text-white text-[35px] font-urbanist">
                         Want to Turn Social Media Into a Profitable Career?
                     </h1>
                     <div className='space-y-4'>
-                        <h2 className="text-4xl font-bold text-brand-secondary text-[35px] font-urbanist drop-shadow-red-400">
+                        <h2 className="text-4xl font-bold text-brand-secondary50 text-[35px] font-urbanist text-shadow-lg text-shadow-brand-primary" >
                             Discover your way to success with Fametonic:
                         </h2>
                         <ul className="text-gray-600 space-y-[13px]">
