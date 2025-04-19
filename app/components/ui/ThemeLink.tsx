@@ -4,7 +4,7 @@ import React from 'react'
 
 const ThemeLink = ({ children, to, style }: LinkType) => {
     return (
-        <Link className={`${style}`} href={to}>{children}</Link>
+        <Link className={`font-semibold text-text-primary text-lg font-figtree hover:text-white ${style || ''}`} href={to}>{children}</Link>
     )
 }
 

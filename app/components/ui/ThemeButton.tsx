@@ -32,10 +32,10 @@ const ThemeButton = ({
             border-brand-primary 
             hover:bg-brand-secondary100 
             hover:drop-shadow-brand-primary 
-            ${buttonStyle && buttonStyle}
+            ${buttonStyle || ''}
         `}>
             <span>{children}</span>
-            {iconSrc && (<Image src={iconSrc} className={`${iconStyle}`} alt={iconAlt ? iconAlt : 'icon'} width={iconWidth} height={iconHeight} />)}
+            {iconSrc && (<Image src={iconSrc} className={`${iconStyle || ''}`} alt={iconAlt ? iconAlt : 'icon'} width={iconWidth} height={iconHeight} />)}
         </button>
     )
 }

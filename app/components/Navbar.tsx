@@ -22,7 +22,7 @@ const Navbar = ({ navs }: NavbarType) => {
             {/* nav Links */}
             <nav className="hidden md:block">
                 <ul className='flex gap-10'>
-                    {navs?.map((nav) => (<li key={nav.id}><ThemeLink style='font-semibold text-text-primary text-lg font-figtree hover:text-white' to={nav.to}>{nav.title}</ThemeLink></li>))}
+                    {navs?.map((nav) => (<li key={nav.id}><ThemeLink to={nav.to}>{nav.title}</ThemeLink></li>))}
                 </ul>
             </nav>
             {/* mobile menu button */}

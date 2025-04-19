@@ -14,5 +14,5 @@ export interface ThemeButtonPropsType {
 export interface LinkType {
     children: ReactNode,
     to: string,
-    style: string
+    style?: string
 }
