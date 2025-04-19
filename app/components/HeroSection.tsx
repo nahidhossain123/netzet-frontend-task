@@ -9,7 +9,7 @@ const HeroSection = () => {
                     Want to Turn Social Media Into a Profitable Career?
                 </h1>
                 <div className='space-y-[22px] md:space-y-4'>
-                    <h2 className="text-center md:text-start font-bold text-brand-secondary50 text-[25px] md:text-[35px] leading-[30px] md:leading-[42px] text-shadow-lg text-shadow-brand-primary font-extrabold md:font-bold font-urbanist" >
+                    <h2 className="text-center md:text-start font-bold text-brand-secondary50 text-[25px] md:text-[35px] leading-[30px] md:leading-[42px] text-shadow-[0_4px_4px] text-shadow-brand-primary font-extrabold md:font-bold font-urbanist" >
                         Discover your way to success with Fametonic:
                     </h2>
                     <ul className="space-y-2.5 md:space-y-[13px]">

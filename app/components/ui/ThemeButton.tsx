@@ -30,7 +30,7 @@ const ThemeButton = ({
             items-center
             justify-center
             gap-2.5
-            drop-shadow-md 
+            drop-shadow-[2px_2px_5px]
             drop-shadow-brand-secondary50 
             bg-brand-primary 
             py-2 
