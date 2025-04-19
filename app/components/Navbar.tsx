@@ -8,7 +8,7 @@ const Navbar = ({ navs }: NavbarType) => {
         <header className="flex justify-center md:justify-between relative">
             {/*site logo*/}
             <div>
-                <Image className='h-auto w-auto max-h-[46] md:max-h-[74]' src="/icons/logo.svg" alt="Logo" width={175} height={74} />
+                <Image className='h-auto w-auto max-h-[46] md:max-h-[74]' src="/icons/logo.svg" alt="Logo" width={174} height={74} />
             </div>
             {/* nav Links */}
             <nav className="hidden md:block">

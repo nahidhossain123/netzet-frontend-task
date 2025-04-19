@@ -25,9 +25,12 @@ const ThemeButton = ({
             py-2 
             px-[83px]
             rounded-[10px]
+            cursor-pointer
             text-white
-            text-4 
+            text-xl
+            leading-6
             font-bold
+            font-figtree
             border-brand-primary 
             hover:bg-brand-secondary100 
             hover:drop-shadow-brand-primary 
