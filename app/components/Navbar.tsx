@@ -17,15 +17,17 @@ const Navbar = ({ navs }: NavbarType) => {
         <header className="flex justify-center md:justify-between relative">
             {/*site logo*/}
             <div>
-                <Image className='h-auto w-auto max-h-[46] md:max-h-[75]' src="/logo.svg" alt="Logo" width={175} height={74} />
+                <Image className='h-auto w-auto max-h-[46] md:max-h-[75]' src="/icons/logo.svg" alt="Logo" width={175} height={74} />
             </div>
+            {/* nav Links */}
             <nav className="hidden md:block">
                 <ul className='flex gap-10'>
                     {navs?.map((nav) => (<li key={nav.id}><ThemeLink style='font-semibold text-text-primary text-lg font-figtree hover:text-white' to={nav.to}>{nav.title}</ThemeLink></li>))}
                 </ul>
             </nav>
+            {/* mobile menu button */}
             <button className='md:hidden absolute top-0 bottom-0 my-auto right-2 h-fit'>
-                <Image src={'/menu-icon.svg'} alt='menu' width={20} height={15} />
+                <Image src={'/icons/menu-icon.svg'} alt='menu' width={20} height={15} />
             </button>
         </header>
     )

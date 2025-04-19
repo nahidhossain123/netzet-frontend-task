@@ -1,16 +1,6 @@
+import { ThemeButtonPropsType } from '@/utils/types'
 import Image from 'next/image'
-import React, { ReactNode } from 'react'
-
-interface ThemeButtonPropsType {
-    children: ReactNode,
-    buttonStyle?: string,
-    onButtonClick?: () => void,
-    iconSrc?: string,
-    iconAlt?: string,
-    iconStyle?: string,
-    iconWidth?: number,
-    iconHeight?: number
-}
+import React from 'react'
 
 const ThemeButton = ({
     children,

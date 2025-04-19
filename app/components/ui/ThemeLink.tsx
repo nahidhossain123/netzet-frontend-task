@@ -1,11 +1,6 @@
+import { LinkType } from '@/utils/types'
 import Link from 'next/link'
-import React, { ReactNode } from 'react'
-
-interface LinkType {
-    children: ReactNode,
-    to: string,
-    style: string
-}
+import React from 'react'
 
 const ThemeLink = ({ children, to, style }: LinkType) => {
     return (

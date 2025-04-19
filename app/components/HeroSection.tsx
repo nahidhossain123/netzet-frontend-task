@@ -4,6 +4,7 @@ import ThemeButton from './ui/ThemeButton'
 const HeroSection = () => {
     return (
         <div className="pt-[279px] md:pt-[57px] space-y-[22px] md:space-y-[30px] md:pb-[82px] max-w-full md:max-w-[516px]">
+            {/* hero texts */}
             <div className='pt-5'>
                 <h1 className="text-center md:text-start text-white text-[25px] md:text-[35px] leading-[30px] md:leading-[42px] font-extrabold md:font-bold font-urbanist">
                     Want to Turn Social Media Into a Profitable Career?
@@ -21,12 +22,14 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className='flex flex-col-reverse md:flex-col gap-8 md:gap-[30px]'>
+                {/* hero get started button */}
                 <div className='w-full md:w-fit flex flex-col items-center gap-[10px] pb-10 md:pb-[unset]'>
-                    <ThemeButton iconSrc='/right-arrow.svg' iconAlt='arrow' iconWidth={8} iconHeight={14}>
+                    <ThemeButton iconSrc='/icons/right-arrow.svg' iconAlt='arrow' iconWidth={8} iconHeight={14}>
                         GET STARTED
                     </ThemeButton>
                     <p className='text-white font-figtree font-medimum text-xs'>1-minute quiz for personalized Insights</p>
                 </div>
+                {/* hero footer */}
                 <footer className='space-y-[19px] md:space-y-3'>
                     <p className='text-center md:text-start text-text-primary font-figtree leading-[14px] font-medimum text-xs'>By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Terms</p>
                     <p className='text-center md:text-start text-text-primary font-figtree leading-[14px] md:leading-[12px] font-medimum text-[10px]'>Fametonic 2025 ©All Rights Reserved.</p>
