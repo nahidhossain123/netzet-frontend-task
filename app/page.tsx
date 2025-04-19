@@ -25,17 +25,18 @@ export default function Home() {
         max-w-[1238px] 
         mx-auto 
         bg-black 
-        pt-5 
+        pt-4
+        md:pt-[30px] 
         bg-[url('/Influe_mobile-small.png')] 
         sm:bg-[url('/Influe_mobile-large.png')] 
         bg-no-repeat bg-top md:bg-bottom-right
       ">
         {/* Navbar Section */}
-        <div className="max-w-[1018px] mx-auto">
+        <div className="mx-5 md:mx-10 lg:mx-[60px] xl:mx-[110px]">
           <Navbar navs={navs} />
         </div>
         {/* Hero Section */}
-        <section className="">
+        <section className="mx-5 md:ml-10 lg:ml-[64px] xl:ml-[114px]">
           <HeroSection />
         </section>
       </div>

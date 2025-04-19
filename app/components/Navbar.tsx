@@ -24,10 +24,8 @@ const Navbar = ({ navs }: NavbarType) => {
                     {navs?.map((nav) => (<li key={nav.id}><ThemeLink style='font-semibold text-text-primary text-lg font-figtree hover:text-white' to={nav.to}>{nav.title}</ThemeLink></li>))}
                 </ul>
             </nav>
-            <button className='md:hidden space-y-1 absolute top-0 bottom-0 my-auto right-4 h-fit'>
-                <span className='w-[20px] block rounded-xl h-[2px] bg-white'></span>
-                <span className='w-[20px] block rounded-xl h-[2px] bg-white'></span>
-                <span className='w-[20px] block rounded-xl h-[2px] bg-white'></span>
+            <button className='md:hidden absolute top-0 bottom-0 my-auto right-2 h-fit'>
+                <Image src={'/menu-icon.svg'} alt='menu' width={20} height={15} />
             </button>
         </header>
     )

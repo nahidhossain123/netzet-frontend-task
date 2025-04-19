@@ -2,11 +2,12 @@ import React from 'react'
 
 const DiscountBanner = () => {
     return (
-        <div className="bg-gradient-to-r from-brand-primary to-brand-secondary100 font-figtree">
-            <p className="p-4 md:py-2.5 font-extrabold text-4 sm:text-[22px] text-center">
-                <span className="text-brand-secondary100">🚀 FRESH BEGINNINGS SALE:</span>
-                <span className="text-white"> Extra 25% OFF, Limited Spots </span>
-                <span className="text-white">- start your journey today!</span>
+        <div className="max-w-[1440px] mx-auto bg-gradient-to-r from-brand-primary to-brand-secondary100">
+            <p className="p-5 md:py-2.5 font-figtree text-base sm:text-[22px] leading-[20px] md:leading-[26px] text-center">
+                <span className="text-brand-secondary100 font-extrabold">🚀 FRESH BEGINNINGS SALE:</span>
+                <span> </span>
+                <span className="text-white font-semibold">Extra 25% OFF, Limited Spots </span>
+                <span className="text-white font-semibold">- start your journey today!</span>
             </p>
         </div>
     )

@@ -38,11 +38,10 @@ const ThemeButton = ({
             rounded-[10px]
             text-white
             text-4 
-            font-bold 
-            border-2 
+            font-bold
             border-brand-primary 
-            hover:bg-transparent 
-            hover:border-white 
+            hover:bg-brand-secondary100 
+            hover:drop-shadow-brand-primary 
             ${buttonStyle && buttonStyle}
         `}>
             <span>{children}</span>
