@@ -22,13 +22,13 @@ const HeroSection = () => {
             </div>
             <div className='flex flex-col-reverse md:flex-col gap-8 md:gap-[30px]'>
                 <div className='w-full md:w-fit flex flex-col items-center gap-[10px]'>
-                    <ThemeButton iconSrc='/right-arrow.svg' iconAlt='arrow' iconWidth={11} iconHeight={6}>
+                    <ThemeButton iconSrc='/right-arrow.svg' iconAlt='arrow' iconWidth={20} iconHeight={20}>
                         GET STARTED
                     </ThemeButton>
                     <p className='text-white font-figtree font-medimum text-xs'>1-minute quiz for personalized Insights</p>
                 </div>
                 <footer className='space-y-3'>
-                    <p className='text-center md:text-start text-text-primary font-figtree font-medimum text-xs'>By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Terms Fametonic 2025 ©All Rights Reserved.</p>
+                    <p className='text-center md:text-start text-text-primary font-figtree font-medimum text-xs'>By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Terms Fametonic 2025 ©All Rights Reserved.</p>
                     <p className='text-center md:text-start text-text-primary font-figtree font-medimum text-xs'>Fametonic 2025 ©All Rights Reserved.</p>
                 </footer>
             </div>

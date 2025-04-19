@@ -1,4 +1,3 @@
-import Image from "next/image";
 import DiscountBanner from "./components/DiscountBanner";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
