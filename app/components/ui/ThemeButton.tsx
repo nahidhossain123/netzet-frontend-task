@@ -15,7 +15,6 @@ const ThemeButton = ({
     return (
         <button onClick={onButtonClick} className={`
             w-full 
-            md:w-[unset] 
             flex 
             items-center
             justify-center

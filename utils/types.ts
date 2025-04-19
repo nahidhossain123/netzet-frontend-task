@@ -16,3 +16,13 @@ export interface LinkType {
     to: string,
     style?: string
 }
+
+export type NavType = {
+    id: string,
+    href: string,
+    title: string
+}
+
+export interface NavbarType {
+    navs: NavType[]
+}

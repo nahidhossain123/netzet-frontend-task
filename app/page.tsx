@@ -1,20 +1,7 @@
 import DiscountBanner from "./components/DiscountBanner";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-
-const navs = [
-  {
-    id: '1',
-    title: 'About us',
-    to: '#'
-  },
-  {
-    id: '2',
-    title: 'Contact',
-    to: '#'
-  },
-
-]
+import { NAV_LINKS } from "@/constants";
 
 export default function Home() {
   return (
@@ -34,10 +21,10 @@ export default function Home() {
       ">
         {/* navbar section */}
         <div className="mx-5 md:mx-10 lg:mx-[60px] xl:mx-[110px]">
-          <Navbar navs={navs} />
+          <Navbar navs={NAV_LINKS} />
         </div>
         {/* hero section */}
-        <section className="mx-5 md:ml-10 lg:ml-[64px] xl:ml-[114px]">
+        <section className="mx-5 md:ml-10 lg:ml-16 xl:ml-[114px]">
           <HeroSection />
         </section>
       </div>
