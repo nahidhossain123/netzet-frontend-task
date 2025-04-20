@@ -15,9 +15,9 @@ const HeroSection = () => {
                     </h2>
                     <ul className="space-y-2.5 md:space-y-[13px]">
                         <li className='flex gap-2.5 text-white leading-[22px] font-medium md:font-semibold font-figtree'><span>✨</span> <span>Start growing your influence right away—no waiting required!</span></li>
-                        <li className='flex gap-2.5 text-white leading-[22px] font-medium md:font-semibold font-figtree'><span>✨</span> <span>Create viral TikToks and Reels step by step with easy-to-follow lessons</span></li>
-                        <li className='flex gap-2.5 text-white leading-[22px] font-medium md:font-semibold font-figtree'><span>✨</span><span> Use a Personal AI Worker to boost your content</span></li>
-                        <li className='flex gap-2.5 text-white leading-[22px] font-medium md:font-semibold font-figtree'><span>✨</span> <span>Learn from expert-led courses designed for aspiring influencers</span></li>
+                        <li className='flex gap-2.5 text-white leading-[22px] font-normal md:font-semibold font-figtree'><span>✨</span> <span>Create viral TikToks and Reels step by step with easy-to-follow lessons</span></li>
+                        <li className='flex gap-2.5 text-white leading-[22px] font-normal md:font-semibold font-figtree'><span>✨</span><span> Use a Personal AI Worker to boost your content</span></li>
+                        <li className='flex gap-2.5 text-white leading-[22px] font-normal md:font-semibold font-figtree'><span>✨</span> <span>Learn from expert-led courses designed for aspiring influencers</span></li>
                     </ul>
                 </div>
             </section>
@@ -32,7 +32,7 @@ const HeroSection = () => {
                 {/* hero footer */}
                 <footer className='space-y-[19px] md:space-y-3'>
                     <p className='text-center md:text-start text-text-secondary font-figtree leading-[14px] font-medimum text-xs'>By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Terms</p>
-                    <p className='text-center md:text-start text-text-secondary font-figtree leading-[14px] md:leading-[12px] font-medimum text-[10px]'>Fametonic 2025 ©All Rights Reserved.</p>
+                    <p className='text-center md:text-start text-text-secondary font-nunito md:font-figtree leading-[14px] md:leading-[12px] font-medimum text-[10px]'>Fametonic 2025 ©All Rights Reserved.</p>
                 </footer>
             </div>
         </div>

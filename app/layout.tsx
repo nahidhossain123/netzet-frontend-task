@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Figtree, Urbanist } from "next/font/google";
+import { Figtree, Urbanist, Nunito } from "next/font/google";
 import "./globals.css";
 
 const figtree = Figtree({
@@ -9,6 +9,11 @@ const figtree = Figtree({
 
 const urbanist = Urbanist({
   variable: "--font-urbanist",
+  subsets: ["latin"],
+});
+
+const nunito = Nunito({
+  variable: "--font-nunito",
   subsets: ["latin"],
 });
 
@@ -25,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${figtree.variable} ${urbanist.variable} antialiased`}
+        className={`${figtree.variable} ${urbanist.variable} ${nunito.variable} antialiased`}
       >
         {children}
       </body>
