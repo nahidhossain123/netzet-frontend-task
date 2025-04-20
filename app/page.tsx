@@ -10,21 +10,18 @@ export default function Home() {
       <DiscountBanner />
       {/* main container */}
       <div className="
-        max-w-[1238px] 
-        mx-auto 
+        container
         bg-black 
         pt-4
         md:pt-[30px] 
         bg-[url('/images/influe_mobile-small.png')] 
         sm:bg-[url('/images/influe_mobile-large.png')] 
-        bg-no-repeat bg-top md:bg-bottom-right
-      ">
+        bg-no-repeat bg-top md:bg-bottom-right">
         {/* navbar section */}
-        <div className="mx-5 md:mx-10 lg:mx-[60px] xl:mx-[110px]">
-          <Navbar navs={NAV_LINKS} />
-        </div>
+        <Navbar navs={NAV_LINKS} />
+
         {/* hero section */}
-        <section className="mx-5 md:ml-10 lg:ml-16 xl:ml-[114px]">
+        <section className="md:mx-1">
           <HeroSection />
         </section>
       </div>

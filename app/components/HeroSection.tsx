@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <div className="pt-[279px] md:pt-[57px] space-y-[22px] md:space-y-[30px] md:pb-[82px] max-w-full md:max-w-[516px]">
             {/* hero texts */}
-            <div className='pt-5 md:pt-[unset]'>
+            <section className='pt-5 md:pt-[unset]'>
                 <h1 className="text-center md:text-start text-white text-[25px] md:text-[35px] leading-[30px] md:leading-[42px] font-extrabold md:font-bold font-urbanist">
                     Want to Turn Social Media Into a Profitable Career?
                 </h1>
@@ -20,7 +20,7 @@ const HeroSection = () => {
                         <li className='flex gap-2.5 text-white leading-[22px] font-medium md:font-semibold font-figtree'><span>✨</span> <span>Learn from expert-led courses designed for aspiring influencers</span></li>
                     </ul>
                 </div>
-            </div>
+            </section>
             <div className='flex flex-col-reverse md:flex-col gap-8 md:gap-[30px]'>
                 {/* hero get started button */}
                 <div className='w-full md:w-fit flex flex-col items-center gap-[10px] pb-10 md:pb-[unset]'>
