@@ -7,9 +7,9 @@ const Navbar = ({ navs }: NavbarType) => {
     return (
         <header className="flex justify-center md:justify-between relative">
             {/*site logo*/}
-            <div>
+            <ThemeLink to='/'>
                 <Image className='h-auto w-auto max-h-[46] md:max-h-[74]' src="/icons/logo.svg" alt="Logo" width={174} height={74} />
-            </div>
+            </ThemeLink>
             {/* nav Links */}
             <nav className="hidden md:block">
                 <ul className='flex gap-10'>
