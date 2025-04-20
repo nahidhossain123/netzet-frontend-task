@@ -30,7 +30,8 @@ const ThemeButton = ({
             text-xl
             leading-6
             font-bold
-            font-figtree
+            font-urbanist
+            md:font-figtree
             border-brand-primary 
             hover:bg-brand-secondary100 
             hover:drop-shadow-brand-primary 
