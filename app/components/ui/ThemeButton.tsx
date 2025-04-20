@@ -23,7 +23,8 @@ const ThemeButton = ({
             drop-shadow-brand-secondary50 
             bg-brand-primary 
             py-2 
-            px-[83px]
+            px-2
+            md:px-[83px]
             rounded-[10px]
             cursor-pointer
             text-white
